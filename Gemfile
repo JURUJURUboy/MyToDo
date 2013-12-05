@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'jpmobile'
+
+gem 'jpmobile-terminfo'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
@@ -55,7 +59,7 @@ group :development, :test do
 
   gem 'quiet_assets'
 
-  gem 'rack-mini-profiler'
+  #gem 'rack-mini-profiler'
 
   gem 'xray-rails'
 end
